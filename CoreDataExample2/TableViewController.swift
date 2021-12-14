@@ -16,6 +16,7 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "The List"
         configureRFC()
     }
     
@@ -36,6 +37,23 @@ class TableViewController: UITableViewController {
         } catch {
             fatalError("Failed to fetch entities: \(error)")
         }
+    }
+    
+    @IBAction func addDidPressed(_ sender: Any) {
+        
+        let context = dataStoreManager.persistentContainer.viewContext
+        
+        let user = User(context: context)
+        let randomNumer = Int.random(in: 0...100)
+        user.name = "User #\(randomNumer)"
+        
+        let book = Book(context: context)
+        book.name = "Some book"
+        
+        user.book = book
+        
+        dataStoreManager.saveContext()
+        tableView.reloadData()
     }
     
     // MARK: - Table view data source

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="D6m-C3-vNH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DLD-O7-tc5">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="116"/>
+            <point key="canvasLocation" x="1042.0289855072465" y="115.84821428571428"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="B1b-BY-xrN">
@@ -46,10 +46,35 @@
                             <outlet property="delegate" destination="D6m-C3-vNH" id="WIm-ac-OY1"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="xVW-cg-cw2">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="EA3-nl-PUe">
+                            <connections>
+                                <action selector="addDidPressed:" destination="D6m-C3-vNH" id="7AX-qW-eha"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iJK-ed-GER" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-854" y="116"/>
+            <point key="canvasLocation" x="55.072463768115945" y="115.84821428571428"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1dj-1g-lQO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DLD-O7-tc5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AjP-VX-xDI">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="D6m-C3-vNH" kind="relationship" relationship="rootViewController" id="1uh-d0-0Tg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fH0-Y0-EeY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-855.07246376811599" y="115.84821428571428"/>
         </scene>
     </scenes>
     <resources>
