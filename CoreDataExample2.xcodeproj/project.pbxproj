@@ -13,6 +13,7 @@
 		A20FF6A02768E9A000667AC2 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF69C2768E9A000667AC2 /* User+CoreDataProperties.swift */; };
 		A20FF6A22768E9FB00667AC2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF6A12768E9FB00667AC2 /* TableViewController.swift */; };
 		A20FF6A42768EAE200667AC2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A20FF6A32768EAE200667AC2 /* .gitignore */; };
+		A20FF6A62768F2A400667AC2 /* DataStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF6A52768F2A400667AC2 /* DataStoreManager.swift */; };
 		A2B7391C27672E01000FDD83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391B27672E01000FDD83 /* AppDelegate.swift */; };
 		A2B7391E27672E01000FDD83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391D27672E01000FDD83 /* SceneDelegate.swift */; };
 		A2B7392027672E01000FDD83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391F27672E01000FDD83 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 		A20FF69C2768E9A000667AC2 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "CoreDataExample2/Models/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A20FF6A12768E9FB00667AC2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		A20FF6A32768EAE200667AC2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A20FF6A52768F2A400667AC2 /* DataStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreManager.swift; sourceTree = "<group>"; };
 		A2B7391827672E01000FDD83 /* CoreDataExample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B7391B27672E01000FDD83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B7391D27672E01000FDD83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				A2B7391B27672E01000FDD83 /* AppDelegate.swift */,
 				A2B7391D27672E01000FDD83 /* SceneDelegate.swift */,
+				A20FF6A52768F2A400667AC2 /* DataStoreManager.swift */,
 				A2B7391F27672E01000FDD83 /* ViewController.swift */,
 				A20FF6A12768E9FB00667AC2 /* TableViewController.swift */,
 				A2B7392127672E01000FDD83 /* Main.storyboard */,
@@ -165,6 +168,7 @@
 				A20FF6A02768E9A000667AC2 /* User+CoreDataProperties.swift in Sources */,
 				A20FF69E2768E9A000667AC2 /* Book+CoreDataProperties.swift in Sources */,
 				A2B7391C27672E01000FDD83 /* AppDelegate.swift in Sources */,
+				A20FF6A62768F2A400667AC2 /* DataStoreManager.swift in Sources */,
 				A2B7392627672E01000FDD83 /* CoreDataExample2.xcdatamodeld in Sources */,
 				A2B7391E27672E01000FDD83 /* SceneDelegate.swift in Sources */,
 				A20FF6A22768E9FB00667AC2 /* TableViewController.swift in Sources */,
