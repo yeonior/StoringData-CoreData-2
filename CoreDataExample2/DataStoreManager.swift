@@ -22,11 +22,13 @@ class DataStoreManager {
         })
         return container
     }()
+    
+    lazy var context = persistentContainer.viewContext
 
     // MARK: - Core Data Saving support
 
     func saveContext () {
-        let context = persistentContainer.viewContext
+        
         if context.hasChanges {
             do {
                 try context.save()
@@ -35,5 +37,19 @@ class DataStoreManager {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+    func addNewUser() {
+        
+        let user = User(context: context)
+        let randomNumer = Int.random(in: 0...100)
+        user.name = "User #\(randomNumer)"
+        
+        let book = Book(context: context)
+        book.name = "Some book"
+        
+        user.book = book
+        
+        saveContext()
     }
 }

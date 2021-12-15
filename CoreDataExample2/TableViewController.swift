@@ -40,19 +40,7 @@ class TableViewController: UITableViewController {
     }
     
     @IBAction func addDidPressed(_ sender: Any) {
-        
-        let context = dataStoreManager.persistentContainer.viewContext
-        
-        let user = User(context: context)
-        let randomNumer = Int.random(in: 0...100)
-        user.name = "User #\(randomNumer)"
-        
-        let book = Book(context: context)
-        book.name = "Some book"
-        
-        user.book = book
-        
-        dataStoreManager.saveContext()
+        dataStoreManager.addNewUser()
         tableView.reloadData()
     }
     
@@ -75,14 +63,14 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-        
+        print("1")
         guard let object = self.fetchedResultsController?.object(at: indexPath) else {
             fatalError("Attempt to configure cell without a managed object")
         }
         
         cell.textLabel?.text = object.name
         cell.detailTextLabel?.text = object.book?.name
-        
+        print("2")
         return cell
     }
 }
