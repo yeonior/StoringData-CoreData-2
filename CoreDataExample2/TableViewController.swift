@@ -18,6 +18,7 @@ class TableViewController: UITableViewController {
         
         title = "The List"
         configureRFC()
+        fetchedResultsController.delegate = self
     }
     
     // fetchedResultsController configuring
@@ -41,12 +42,12 @@ class TableViewController: UITableViewController {
     
     @IBAction func addDidPressed(_ sender: Any) {
         dataStoreManager.addNewUser()
-        tableView.reloadData()
+//        tableView.reloadData()
     }
     
     @IBAction func deleteAllDidPressed(_ sender: Any) {
         dataStoreManager.deleteAllUsers()
-        tableView.reloadData()
+//        tableView.reloadData()
     }
     
     // MARK: - Table view data source
@@ -77,5 +78,26 @@ class TableViewController: UITableViewController {
         cell.detailTextLabel?.text = object.book?.name
         
         return cell
+    }
+}
+
+// MARK: - FRC delegate
+
+extension TableViewController: NSFetchedResultsControllerDelegate {
+    
+    func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
+        
+        switch type {
+        case .insert:
+            guard let newIndexPath = newIndexPath else { return }
+            tableView.insertRows(at: [newIndexPath], with: .fade)
+        case .delete:
+            guard let indexPath = indexPath else { return }
+            tableView.deleteRows(at: [indexPath], with: .fade)
+//        case .move:
+//            guard let indexPath = indexPath, let newIndexPath = newIndexPath else { return }
+//            tableView.moveRow(at: indexPath, to: newIndexPath)
+        default: return
+        }
     }
 }
