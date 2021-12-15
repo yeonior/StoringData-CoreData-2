@@ -27,7 +27,7 @@ class DataStoreManager {
 
     // MARK: - Core Data Saving support
 
-    func saveContext () {
+    func saveContext() {
         
         if context.hasChanges {
             do {
@@ -51,5 +51,16 @@ class DataStoreManager {
         user.book = book
         
         saveContext()
+    }
+    
+    func deleteAllUsers() {
+        
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+        if let users = try? context.fetch(fetchRequest) as? [User], !users.isEmpty {
+            for user in users {
+                context.delete(user)
+            }
+            saveContext()
+        }
     }
 }

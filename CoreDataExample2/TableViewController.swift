@@ -44,6 +44,11 @@ class TableViewController: UITableViewController {
         tableView.reloadData()
     }
     
+    @IBAction func deleteAllDidPressed(_ sender: Any) {
+        dataStoreManager.deleteAllUsers()
+        tableView.reloadData()
+    }
+    
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -63,14 +68,14 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-        print("1")
+        
         guard let object = self.fetchedResultsController?.object(at: indexPath) else {
             fatalError("Attempt to configure cell without a managed object")
         }
         
         cell.textLabel?.text = object.name
         cell.detailTextLabel?.text = object.book?.name
-        print("2")
+        
         return cell
     }
 }

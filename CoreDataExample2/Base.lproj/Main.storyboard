@@ -63,6 +63,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="xVW-cg-cw2">
+                        <barButtonItem key="leftBarButtonItem" title="Delete all" id="5gF-U4-z0g">
+                            <connections>
+                                <action selector="deleteAllDidPressed:" destination="D6m-C3-vNH" id="k7e-fC-aHL"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="EA3-nl-PUe">
                             <connections>
                                 <action selector="addDidPressed:" destination="D6m-C3-vNH" id="7AX-qW-eha"/>
