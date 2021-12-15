@@ -39,6 +39,8 @@ class DataStoreManager {
         }
     }
     
+    // MARK: - Core Data custom methods
+    
     func addNewUser() {
         
         let user = User(context: context)
@@ -59,8 +61,8 @@ class DataStoreManager {
         if let users = try? context.fetch(fetchRequest) as? [User], !users.isEmpty {
             for user in users {
                 context.delete(user)
+                saveContext()
             }
-            saveContext()
         }
     }
 }
