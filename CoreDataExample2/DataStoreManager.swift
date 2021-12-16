@@ -55,6 +55,12 @@ class DataStoreManager {
         saveContext()
     }
     
+    func deleteUser(_ user: User) {
+        
+        context.delete(user)
+        saveContext()
+    }
+    
     func deleteAllUsers() {
         
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
