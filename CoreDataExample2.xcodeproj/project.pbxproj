@@ -16,7 +16,6 @@
 		A20FF6A62768F2A400667AC2 /* DataStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF6A52768F2A400667AC2 /* DataStoreManager.swift */; };
 		A2B7391C27672E01000FDD83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391B27672E01000FDD83 /* AppDelegate.swift */; };
 		A2B7391E27672E01000FDD83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391D27672E01000FDD83 /* SceneDelegate.swift */; };
-		A2B7392027672E01000FDD83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391F27672E01000FDD83 /* ViewController.swift */; };
 		A2B7392327672E01000FDD83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B7392127672E01000FDD83 /* Main.storyboard */; };
 		A2B7392627672E01000FDD83 /* CoreDataExample2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2B7392427672E01000FDD83 /* CoreDataExample2.xcdatamodeld */; };
 		A2B7392827672E02000FDD83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B7392727672E02000FDD83 /* Assets.xcassets */; };
@@ -34,7 +33,6 @@
 		A2B7391827672E01000FDD83 /* CoreDataExample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B7391B27672E01000FDD83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B7391D27672E01000FDD83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2B7391F27672E01000FDD83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2B7392227672E01000FDD83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2B7392527672E01000FDD83 /* CoreDataExample2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataExample2.xcdatamodel; sourceTree = "<group>"; };
 		A2B7392727672E02000FDD83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				A2B7391B27672E01000FDD83 /* AppDelegate.swift */,
 				A2B7391D27672E01000FDD83 /* SceneDelegate.swift */,
 				A20FF6A52768F2A400667AC2 /* DataStoreManager.swift */,
-				A2B7391F27672E01000FDD83 /* ViewController.swift */,
 				A20FF6A12768E9FB00667AC2 /* TableViewController.swift */,
 				A2B7392127672E01000FDD83 /* Main.storyboard */,
 				A2B7392727672E02000FDD83 /* Assets.xcassets */,
@@ -164,7 +161,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A20FF69D2768E9A000667AC2 /* Book+CoreDataClass.swift in Sources */,
-				A2B7392027672E01000FDD83 /* ViewController.swift in Sources */,
 				A20FF6A02768E9A000667AC2 /* User+CoreDataProperties.swift in Sources */,
 				A20FF69E2768E9A000667AC2 /* Book+CoreDataProperties.swift in Sources */,
 				A2B7391C27672E01000FDD83 /* AppDelegate.swift in Sources */,
