@@ -25,7 +25,7 @@ class TableViewController: UITableViewController {
     private func configureRFC() {
         let context = dataStoreManager.persistentContainer.viewContext
         let fetchRequest = User.fetchRequest()
-        let sortDescriptor = NSSortDescriptor(key: "name", ascending: true)
+        let sortDescriptor = NSSortDescriptor(key: #keyPath(User.name), ascending: true)
         fetchRequest.sortDescriptors = [sortDescriptor]
         fetchRequest.fetchLimit = 15
         fetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest,
