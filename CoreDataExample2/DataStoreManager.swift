@@ -45,7 +45,7 @@ class DataStoreManager {
         
         let user = User(context: context)
         let randomNumer = Int.random(in: 0...100)
-        user.name = "User #\(randomNumer)"
+        user.firstName = "User #\(randomNumer)"
         
         let book = Book(context: context)
         book.name = "Some book"

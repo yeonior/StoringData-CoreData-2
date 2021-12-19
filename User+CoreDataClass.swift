@@ -2,7 +2,7 @@
 //  User+CoreDataClass.swift
 //  CoreDataExample2
 //
-//  Created by ruslan on 14.12.2021.
+//  Created by ruslan on 18.12.2021.
 //
 //
 

@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		A20FF69D2768E9A000667AC2 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF6992768E9A000667AC2 /* Book+CoreDataClass.swift */; };
 		A20FF69E2768E9A000667AC2 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF69A2768E9A000667AC2 /* Book+CoreDataProperties.swift */; };
-		A20FF69F2768E9A000667AC2 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF69B2768E9A000667AC2 /* User+CoreDataClass.swift */; };
-		A20FF6A02768E9A000667AC2 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF69C2768E9A000667AC2 /* User+CoreDataProperties.swift */; };
 		A20FF6A22768E9FB00667AC2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF6A12768E9FB00667AC2 /* TableViewController.swift */; };
 		A20FF6A42768EAE200667AC2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A20FF6A32768EAE200667AC2 /* .gitignore */; };
 		A20FF6A62768F2A400667AC2 /* DataStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF6A52768F2A400667AC2 /* DataStoreManager.swift */; };
+		A281ED21276E285C0020C84E /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281ED1F276E285C0020C84E /* User+CoreDataClass.swift */; };
+		A281ED22276E285C0020C84E /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281ED20276E285C0020C84E /* User+CoreDataProperties.swift */; };
 		A2B7391C27672E01000FDD83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391B27672E01000FDD83 /* AppDelegate.swift */; };
 		A2B7391E27672E01000FDD83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391D27672E01000FDD83 /* SceneDelegate.swift */; };
 		A2B7392327672E01000FDD83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B7392127672E01000FDD83 /* Main.storyboard */; };
@@ -25,11 +25,12 @@
 /* Begin PBXFileReference section */
 		A20FF6992768E9A000667AC2 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Book+CoreDataClass.swift"; path = "CoreDataExample2/Models/Book+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A20FF69A2768E9A000667AC2 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Book+CoreDataProperties.swift"; path = "CoreDataExample2/Models/Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		A20FF69B2768E9A000667AC2 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "CoreDataExample2/Models/User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		A20FF69C2768E9A000667AC2 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "CoreDataExample2/Models/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A20FF6A12768E9FB00667AC2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		A20FF6A32768EAE200667AC2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A20FF6A52768F2A400667AC2 /* DataStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreManager.swift; sourceTree = "<group>"; };
+		A281ED1E276E27550020C84E /* CoreDataExample2 v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataExample2 v2.xcdatamodel"; sourceTree = "<group>"; };
+		A281ED1F276E285C0020C84E /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A281ED20276E285C0020C84E /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A2B7391827672E01000FDD83 /* CoreDataExample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B7391B27672E01000FDD83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B7391D27672E01000FDD83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,10 +56,10 @@
 			isa = PBXGroup;
 			children = (
 				A20FF6A32768EAE200667AC2 /* .gitignore */,
+				A281ED1F276E285C0020C84E /* User+CoreDataClass.swift */,
+				A281ED20276E285C0020C84E /* User+CoreDataProperties.swift */,
 				A20FF6992768E9A000667AC2 /* Book+CoreDataClass.swift */,
 				A20FF69A2768E9A000667AC2 /* Book+CoreDataProperties.swift */,
-				A20FF69B2768E9A000667AC2 /* User+CoreDataClass.swift */,
-				A20FF69C2768E9A000667AC2 /* User+CoreDataProperties.swift */,
 				A2B7391A27672E01000FDD83 /* CoreDataExample2 */,
 				A2B7391927672E01000FDD83 /* Products */,
 			);
@@ -161,14 +162,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A20FF69D2768E9A000667AC2 /* Book+CoreDataClass.swift in Sources */,
-				A20FF6A02768E9A000667AC2 /* User+CoreDataProperties.swift in Sources */,
 				A20FF69E2768E9A000667AC2 /* Book+CoreDataProperties.swift in Sources */,
 				A2B7391C27672E01000FDD83 /* AppDelegate.swift in Sources */,
+				A281ED21276E285C0020C84E /* User+CoreDataClass.swift in Sources */,
 				A20FF6A62768F2A400667AC2 /* DataStoreManager.swift in Sources */,
 				A2B7392627672E01000FDD83 /* CoreDataExample2.xcdatamodeld in Sources */,
+				A281ED22276E285C0020C84E /* User+CoreDataProperties.swift in Sources */,
 				A2B7391E27672E01000FDD83 /* SceneDelegate.swift in Sources */,
 				A20FF6A22768E9FB00667AC2 /* TableViewController.swift in Sources */,
-				A20FF69F2768E9A000667AC2 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,9 +394,10 @@
 		A2B7392427672E01000FDD83 /* CoreDataExample2.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				A281ED1E276E27550020C84E /* CoreDataExample2 v2.xcdatamodel */,
 				A2B7392527672E01000FDD83 /* CoreDataExample2.xcdatamodel */,
 			);
-			currentVersion = A2B7392527672E01000FDD83 /* CoreDataExample2.xcdatamodel */;
+			currentVersion = A281ED1E276E27550020C84E /* CoreDataExample2 v2.xcdatamodel */;
 			path = CoreDataExample2.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
