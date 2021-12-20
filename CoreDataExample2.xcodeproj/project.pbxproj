@@ -14,6 +14,7 @@
 		A20FF6A62768F2A400667AC2 /* DataStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF6A52768F2A400667AC2 /* DataStoreManager.swift */; };
 		A281ED21276E285C0020C84E /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281ED1F276E285C0020C84E /* User+CoreDataClass.swift */; };
 		A281ED22276E285C0020C84E /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281ED20276E285C0020C84E /* User+CoreDataProperties.swift */; };
+		A29C62622770BCFC00ED173C /* ImageTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C62612770BCFC00ED173C /* ImageTransformer.swift */; };
 		A2B7391C27672E01000FDD83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391B27672E01000FDD83 /* AppDelegate.swift */; };
 		A2B7391E27672E01000FDD83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391D27672E01000FDD83 /* SceneDelegate.swift */; };
 		A2B7392327672E01000FDD83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B7392127672E01000FDD83 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		A281ED1E276E27550020C84E /* CoreDataExample2 v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataExample2 v2.xcdatamodel"; sourceTree = "<group>"; };
 		A281ED1F276E285C0020C84E /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A281ED20276E285C0020C84E /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A29C62612770BCFC00ED173C /* ImageTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransformer.swift; sourceTree = "<group>"; };
 		A2B7391827672E01000FDD83 /* CoreDataExample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B7391B27672E01000FDD83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B7391D27672E01000FDD83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				A2B7391B27672E01000FDD83 /* AppDelegate.swift */,
 				A2B7391D27672E01000FDD83 /* SceneDelegate.swift */,
+				A29C62612770BCFC00ED173C /* ImageTransformer.swift */,
 				A20FF6A52768F2A400667AC2 /* DataStoreManager.swift */,
 				A20FF6A12768E9FB00667AC2 /* TableViewController.swift */,
 				A2B7392127672E01000FDD83 /* Main.storyboard */,
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A20FF69D2768E9A000667AC2 /* Book+CoreDataClass.swift in Sources */,
+				A29C62622770BCFC00ED173C /* ImageTransformer.swift in Sources */,
 				A20FF69E2768E9A000667AC2 /* Book+CoreDataProperties.swift in Sources */,
 				A2B7391C27672E01000FDD83 /* AppDelegate.swift in Sources */,
 				A281ED21276E285C0020C84E /* User+CoreDataClass.swift in Sources */,
