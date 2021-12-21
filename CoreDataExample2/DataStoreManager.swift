@@ -7,6 +7,7 @@
 
 import Foundation
 import CoreData
+import UIKit
 
 class DataStoreManager {
     
@@ -46,6 +47,7 @@ class DataStoreManager {
         let user = User(context: context)
         let randomNumer = Int.random(in: 0...100)
         user.firstName = "User #\(randomNumer)"
+        user.avatar = UIImage(systemName: "person")
         
         let book = Book(context: context)
         book.name = "Some book"

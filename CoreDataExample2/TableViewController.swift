@@ -76,6 +76,7 @@ class TableViewController: UITableViewController {
         
         cell.textLabel?.text = object.firstName
         cell.detailTextLabel?.text = object.book?.name
+        cell.imageView?.image = object.avatar
         
         return cell
     }
