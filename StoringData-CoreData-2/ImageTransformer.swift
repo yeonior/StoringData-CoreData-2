@@ -1,6 +1,6 @@
 //
 //  ImageTransformer.swift
-//  CoreDataExample2
+//  StoringData-CoreData-2
 //
 //  Created by ruslan on 20.12.2021.
 //

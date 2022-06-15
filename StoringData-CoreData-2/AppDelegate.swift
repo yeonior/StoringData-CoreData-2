@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CoreDataExample2
+//  StoringData-CoreData-2
 //
 //  Created by ruslan on 13.12.2021.
 //

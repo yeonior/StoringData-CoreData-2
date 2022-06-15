@@ -1,14 +1,14 @@
 //
 //  User+CoreDataProperties.swift
-//  CoreDataExample2
+//  StoringData-CoreData-2
 //
-//  Created by ruslan on 20.12.2021.
+//  Created by Ruslan on 15.06.2022.
 //
 //
 
-import Foundation
-import CoreData
 import UIKit
+import CoreData
+
 
 extension User {
 
@@ -16,8 +16,8 @@ extension User {
         return NSFetchRequest<User>(entityName: "User")
     }
 
-    @NSManaged public var firstName: String?
     @NSManaged public var avatar: UIImage?
+    @NSManaged public var firstName: String?
     @NSManaged public var book: Book?
 
 }

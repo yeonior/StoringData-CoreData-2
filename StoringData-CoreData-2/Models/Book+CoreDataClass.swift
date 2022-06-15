@@ -1,8 +1,8 @@
 //
 //  Book+CoreDataClass.swift
-//  CoreDataExample2
+//  StoringData-CoreData-2
 //
-//  Created by ruslan on 14.12.2021.
+//  Created by Ruslan on 15.06.2022.
 //
 //
 

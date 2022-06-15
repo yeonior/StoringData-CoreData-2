@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A20FF69D2768E9A000667AC2 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF6992768E9A000667AC2 /* Book+CoreDataClass.swift */; };
-		A20FF69E2768E9A000667AC2 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF69A2768E9A000667AC2 /* Book+CoreDataProperties.swift */; };
 		A20FF6A22768E9FB00667AC2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF6A12768E9FB00667AC2 /* TableViewController.swift */; };
 		A20FF6A42768EAE200667AC2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A20FF6A32768EAE200667AC2 /* .gitignore */; };
 		A20FF6A62768F2A400667AC2 /* DataStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20FF6A52768F2A400667AC2 /* DataStoreManager.swift */; };
-		A281ED21276E285C0020C84E /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281ED1F276E285C0020C84E /* User+CoreDataClass.swift */; };
-		A281ED22276E285C0020C84E /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281ED20276E285C0020C84E /* User+CoreDataProperties.swift */; };
+		A273332F285A5C0C00A02667 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273332B285A5C0C00A02667 /* Book+CoreDataClass.swift */; };
+		A2733330285A5C0C00A02667 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273332C285A5C0C00A02667 /* Book+CoreDataProperties.swift */; };
+		A2733331285A5C0C00A02667 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273332D285A5C0C00A02667 /* User+CoreDataClass.swift */; };
+		A2733332285A5C0C00A02667 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273332E285A5C0C00A02667 /* User+CoreDataProperties.swift */; };
 		A29C62622770BCFC00ED173C /* ImageTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C62612770BCFC00ED173C /* ImageTransformer.swift */; };
 		A2B7391C27672E01000FDD83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391B27672E01000FDD83 /* AppDelegate.swift */; };
 		A2B7391E27672E01000FDD83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7391D27672E01000FDD83 /* SceneDelegate.swift */; };
@@ -24,16 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A20FF6992768E9A000667AC2 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Book+CoreDataClass.swift"; path = "CoreDataExample2/Models/Book+CoreDataClass.swift"; sourceTree = "<group>"; };
-		A20FF69A2768E9A000667AC2 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Book+CoreDataProperties.swift"; path = "CoreDataExample2/Models/Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A20FF6A12768E9FB00667AC2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		A20FF6A32768EAE200667AC2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A20FF6A52768F2A400667AC2 /* DataStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreManager.swift; sourceTree = "<group>"; };
+		A273332B285A5C0C00A02667 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A273332C285A5C0C00A02667 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A273332D285A5C0C00A02667 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A273332E285A5C0C00A02667 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A281ED1E276E27550020C84E /* CoreDataExample2 v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataExample2 v2.xcdatamodel"; sourceTree = "<group>"; };
-		A281ED1F276E285C0020C84E /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		A281ED20276E285C0020C84E /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A29C62612770BCFC00ED173C /* ImageTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransformer.swift; sourceTree = "<group>"; };
-		A2B7391827672E01000FDD83 /* CoreDataExample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B7391827672E01000FDD83 /* StoringData-CoreData-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StoringData-CoreData-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B7391B27672E01000FDD83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B7391D27672E01000FDD83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A2B7392227672E01000FDD83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,15 +54,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2733322285A5B2100A02667 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A273332B285A5C0C00A02667 /* Book+CoreDataClass.swift */,
+				A273332C285A5C0C00A02667 /* Book+CoreDataProperties.swift */,
+				A273332D285A5C0C00A02667 /* User+CoreDataClass.swift */,
+				A273332E285A5C0C00A02667 /* User+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A2B7390F27672E01000FDD83 = {
 			isa = PBXGroup;
 			children = (
 				A20FF6A32768EAE200667AC2 /* .gitignore */,
-				A281ED1F276E285C0020C84E /* User+CoreDataClass.swift */,
-				A281ED20276E285C0020C84E /* User+CoreDataProperties.swift */,
-				A20FF6992768E9A000667AC2 /* Book+CoreDataClass.swift */,
-				A20FF69A2768E9A000667AC2 /* Book+CoreDataProperties.swift */,
-				A2B7391A27672E01000FDD83 /* CoreDataExample2 */,
+				A2B7391A27672E01000FDD83 /* StoringData-CoreData-2 */,
 				A2B7391927672E01000FDD83 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,14 +77,15 @@
 		A2B7391927672E01000FDD83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2B7391827672E01000FDD83 /* CoreDataExample2.app */,
+				A2B7391827672E01000FDD83 /* StoringData-CoreData-2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2B7391A27672E01000FDD83 /* CoreDataExample2 */ = {
+		A2B7391A27672E01000FDD83 /* StoringData-CoreData-2 */ = {
 			isa = PBXGroup;
 			children = (
+				A2733322285A5B2100A02667 /* Models */,
 				A2B7391B27672E01000FDD83 /* AppDelegate.swift */,
 				A2B7391D27672E01000FDD83 /* SceneDelegate.swift */,
 				A29C62612770BCFC00ED173C /* ImageTransformer.swift */,
@@ -89,15 +97,15 @@
 				A2B7392C27672E02000FDD83 /* Info.plist */,
 				A2B7392427672E01000FDD83 /* CoreDataExample2.xcdatamodeld */,
 			);
-			path = CoreDataExample2;
+			path = "StoringData-CoreData-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2B7391727672E01000FDD83 /* CoreDataExample2 */ = {
+		A2B7391727672E01000FDD83 /* StoringData-CoreData-2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2B7392F27672E02000FDD83 /* Build configuration list for PBXNativeTarget "CoreDataExample2" */;
+			buildConfigurationList = A2B7392F27672E02000FDD83 /* Build configuration list for PBXNativeTarget "StoringData-CoreData-2" */;
 			buildPhases = (
 				A2B7391427672E01000FDD83 /* Sources */,
 				A2B7391527672E01000FDD83 /* Frameworks */,
@@ -107,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = CoreDataExample2;
+			name = "StoringData-CoreData-2";
 			productName = CoreDataExample2;
-			productReference = A2B7391827672E01000FDD83 /* CoreDataExample2.app */;
+			productReference = A2B7391827672E01000FDD83 /* StoringData-CoreData-2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2B7391327672E01000FDD83 /* Build configuration list for PBXProject "CoreDataExample2" */;
+			buildConfigurationList = A2B7391327672E01000FDD83 /* Build configuration list for PBXProject "StoringData-CoreData-2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2B7391727672E01000FDD83 /* CoreDataExample2 */,
+				A2B7391727672E01000FDD83 /* StoringData-CoreData-2 */,
 			);
 		};
 /* End PBXProject section */
@@ -164,15 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A20FF69D2768E9A000667AC2 /* Book+CoreDataClass.swift in Sources */,
 				A29C62622770BCFC00ED173C /* ImageTransformer.swift in Sources */,
-				A20FF69E2768E9A000667AC2 /* Book+CoreDataProperties.swift in Sources */,
 				A2B7391C27672E01000FDD83 /* AppDelegate.swift in Sources */,
-				A281ED21276E285C0020C84E /* User+CoreDataClass.swift in Sources */,
+				A273332F285A5C0C00A02667 /* Book+CoreDataClass.swift in Sources */,
 				A20FF6A62768F2A400667AC2 /* DataStoreManager.swift in Sources */,
 				A2B7392627672E01000FDD83 /* CoreDataExample2.xcdatamodeld in Sources */,
-				A281ED22276E285C0020C84E /* User+CoreDataProperties.swift in Sources */,
+				A2733331285A5C0C00A02667 /* User+CoreDataClass.swift in Sources */,
 				A2B7391E27672E01000FDD83 /* SceneDelegate.swift in Sources */,
+				A2733330285A5C0C00A02667 /* Book+CoreDataProperties.swift in Sources */,
+				A2733332285A5C0C00A02667 /* User+CoreDataProperties.swift in Sources */,
 				A20FF6A22768E9FB00667AC2 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +332,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoreDataExample2/Info.plist;
+				INFOPLIST_FILE = "StoringData-CoreData-2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,7 +343,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = YeoCompany.CoreDataExample2;
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.StoringData-CoreData-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,7 +360,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoreDataExample2/Info.plist;
+				INFOPLIST_FILE = "StoringData-CoreData-2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -363,7 +371,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = YeoCompany.CoreDataExample2;
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.StoringData-CoreData-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -374,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2B7391327672E01000FDD83 /* Build configuration list for PBXProject "CoreDataExample2" */ = {
+		A2B7391327672E01000FDD83 /* Build configuration list for PBXProject "StoringData-CoreData-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2B7392D27672E02000FDD83 /* Debug */,
@@ -383,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2B7392F27672E02000FDD83 /* Build configuration list for PBXNativeTarget "CoreDataExample2" */ = {
+		A2B7392F27672E02000FDD83 /* Build configuration list for PBXNativeTarget "StoringData-CoreData-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2B7393027672E02000FDD83 /* Debug */,
